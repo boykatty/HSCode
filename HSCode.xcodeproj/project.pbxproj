@@ -7,24 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		870F2C231DD404C700562B29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 870F2C221DD404C700562B29 /* Main.storyboard */; };
+		870F2C2C1DD410FF00562B29 /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = 870F2C2B1DD410FB00562B29 /* data.db */; };
+		871AF5411DD1763D0000419C /* DbManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 871AF5401DD1763D0000419C /* DbManager.m */; };
+		876C77CF1DD31E39007FF2D5 /* Chuong.m in Sources */ = {isa = PBXBuildFile; fileRef = 876C77CE1DD31E39007FF2D5 /* Chuong.m */; };
+		876C77D21DD332EF007FF2D5 /* HangHoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 876C77D11DD332EF007FF2D5 /* HangHoa.m */; };
+		878EA7951DD2B9AB007FE075 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 878EA7941DD2B9AB007FE075 /* libsqlite3.tbd */; };
+		878EA7971DD2B9B0007FE075 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 878EA7961DD2B9B0007FE075 /* libsqlite3.0.tbd */; };
+		878EA7A11DD2DDB1007FE075 /* ChonNgonNgu.m in Sources */ = {isa = PBXBuildFile; fileRef = 878EA7A01DD2DDB1007FE075 /* ChonNgonNgu.m */; };
+		878EA7A41DD30778007FE075 /* ChuDe.m in Sources */ = {isa = PBXBuildFile; fileRef = 878EA7A31DD30778007FE075 /* ChuDe.m */; };
+		879CFA6F1DD4456100AF04CA /* TimKiem.m in Sources */ = {isa = PBXBuildFile; fileRef = 879CFA6E1DD4456100AF04CA /* TimKiem.m */; };
+		879CFA721DD44AE400AF04CA /* ChiTietHangHoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 879CFA711DD44AE400AF04CA /* ChiTietHangHoa.m */; };
+		879CFA741DD453C100AF04CA /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 879CFA731DD453C100AF04CA /* data.plist */; };
 		87BE935F1DD0FE7100D32C69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BE935E1DD0FE7100D32C69 /* main.m */; };
 		87BE93621DD0FE7100D32C69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BE93611DD0FE7100D32C69 /* AppDelegate.m */; };
-		87BE93651DD0FE7100D32C69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BE93641DD0FE7100D32C69 /* ViewController.m */; };
-		87BE93681DD0FE7100D32C69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87BE93661DD0FE7100D32C69 /* Main.storyboard */; };
-		87BE936B1DD0FE7100D32C69 /* HSCode.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87BE93691DD0FE7100D32C69 /* HSCode.xcdatamodeld */; };
 		87BE936D1DD0FE7100D32C69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87BE936C1DD0FE7100D32C69 /* Assets.xcassets */; };
 		87BE93701DD0FE7100D32C69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87BE936E1DD0FE7100D32C69 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		870F2C221DD404C700562B29 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		870F2C2B1DD410FB00562B29 /* data.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = data.db; sourceTree = "<group>"; };
+		871AF53F1DD1763D0000419C /* DbManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DbManager.h; path = ../DbManager.h; sourceTree = "<group>"; };
+		871AF5401DD1763D0000419C /* DbManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DbManager.m; path = ../DbManager.m; sourceTree = "<group>"; };
+		876C77CD1DD31E39007FF2D5 /* Chuong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chuong.h; sourceTree = "<group>"; };
+		876C77CE1DD31E39007FF2D5 /* Chuong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chuong.m; sourceTree = "<group>"; };
+		876C77D01DD332EF007FF2D5 /* HangHoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HangHoa.h; sourceTree = "<group>"; };
+		876C77D11DD332EF007FF2D5 /* HangHoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HangHoa.m; sourceTree = "<group>"; };
+		878EA7941DD2B9AB007FE075 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		878EA7961DD2B9B0007FE075 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		878EA79F1DD2DDB1007FE075 /* ChonNgonNgu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChonNgonNgu.h; sourceTree = "<group>"; };
+		878EA7A01DD2DDB1007FE075 /* ChonNgonNgu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChonNgonNgu.m; sourceTree = "<group>"; };
+		878EA7A21DD30778007FE075 /* ChuDe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChuDe.h; sourceTree = "<group>"; };
+		878EA7A31DD30778007FE075 /* ChuDe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChuDe.m; sourceTree = "<group>"; };
+		879CFA6D1DD4456100AF04CA /* TimKiem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimKiem.h; sourceTree = "<group>"; };
+		879CFA6E1DD4456100AF04CA /* TimKiem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimKiem.m; sourceTree = "<group>"; };
+		879CFA701DD44AE400AF04CA /* ChiTietHangHoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChiTietHangHoa.h; sourceTree = "<group>"; };
+		879CFA711DD44AE400AF04CA /* ChiTietHangHoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChiTietHangHoa.m; sourceTree = "<group>"; };
+		879CFA731DD453C100AF04CA /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = data.plist; path = ../data.plist; sourceTree = "<group>"; };
 		87BE935A1DD0FE7000D32C69 /* HSCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87BE935E1DD0FE7100D32C69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		87BE93601DD0FE7100D32C69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		87BE93611DD0FE7100D32C69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		87BE93631DD0FE7100D32C69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		87BE93641DD0FE7100D32C69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		87BE93671DD0FE7100D32C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		87BE936A1DD0FE7100D32C69 /* HSCode.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HSCode.xcdatamodel; sourceTree = "<group>"; };
 		87BE936C1DD0FE7100D32C69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87BE936F1DD0FE7100D32C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87BE93711DD0FE7100D32C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -35,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				878EA7971DD2B9B0007FE075 /* libsqlite3.0.tbd in Frameworks */,
+				878EA7951DD2B9AB007FE075 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,7 +70,10 @@
 		87BE93511DD0FE7000D32C69 = {
 			isa = PBXGroup;
 			children = (
-				87BE935C1DD0FE7000D32C69 /* HSCode */,
+				870F2C2B1DD410FB00562B29 /* data.db */,
+				878EA7961DD2B9B0007FE075 /* libsqlite3.0.tbd */,
+				878EA7941DD2B9AB007FE075 /* libsqlite3.tbd */,
+				87BE935C1DD0FE7000D32C69 /* hscode */,
 				87BE935B1DD0FE7000D32C69 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,20 +86,33 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		87BE935C1DD0FE7000D32C69 /* HSCode */ = {
+		87BE935C1DD0FE7000D32C69 /* hscode */ = {
 			isa = PBXGroup;
 			children = (
+				879CFA731DD453C100AF04CA /* data.plist */,
+				871AF53F1DD1763D0000419C /* DbManager.h */,
+				871AF5401DD1763D0000419C /* DbManager.m */,
 				87BE93601DD0FE7100D32C69 /* AppDelegate.h */,
 				87BE93611DD0FE7100D32C69 /* AppDelegate.m */,
-				87BE93631DD0FE7100D32C69 /* ViewController.h */,
-				87BE93641DD0FE7100D32C69 /* ViewController.m */,
-				87BE93661DD0FE7100D32C69 /* Main.storyboard */,
 				87BE936C1DD0FE7100D32C69 /* Assets.xcassets */,
 				87BE936E1DD0FE7100D32C69 /* LaunchScreen.storyboard */,
 				87BE93711DD0FE7100D32C69 /* Info.plist */,
-				87BE93691DD0FE7100D32C69 /* HSCode.xcdatamodeld */,
 				87BE935D1DD0FE7100D32C69 /* Supporting Files */,
+				878EA79F1DD2DDB1007FE075 /* ChonNgonNgu.h */,
+				878EA7A01DD2DDB1007FE075 /* ChonNgonNgu.m */,
+				878EA7A21DD30778007FE075 /* ChuDe.h */,
+				878EA7A31DD30778007FE075 /* ChuDe.m */,
+				876C77CD1DD31E39007FF2D5 /* Chuong.h */,
+				876C77CE1DD31E39007FF2D5 /* Chuong.m */,
+				876C77D01DD332EF007FF2D5 /* HangHoa.h */,
+				876C77D11DD332EF007FF2D5 /* HangHoa.m */,
+				870F2C221DD404C700562B29 /* Main.storyboard */,
+				879CFA6D1DD4456100AF04CA /* TimKiem.h */,
+				879CFA6E1DD4456100AF04CA /* TimKiem.m */,
+				879CFA701DD44AE400AF04CA /* ChiTietHangHoa.h */,
+				879CFA711DD44AE400AF04CA /* ChiTietHangHoa.m */,
 			);
+			name = hscode;
 			path = HSCode;
 			sourceTree = "<group>";
 		};
@@ -108,11 +150,12 @@
 		87BE93521DD0FE7000D32C69 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Do Van Tuong";
 				TargetAttributes = {
 					87BE93591DD0FE7000D32C69 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = CD3JTQTETY;
 					};
 				};
 			};
@@ -140,8 +183,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				87BE93701DD0FE7100D32C69 /* LaunchScreen.storyboard in Resources */,
+				870F2C2C1DD410FF00562B29 /* data.db in Resources */,
 				87BE936D1DD0FE7100D32C69 /* Assets.xcassets in Resources */,
-				87BE93681DD0FE7100D32C69 /* Main.storyboard in Resources */,
+				879CFA741DD453C100AF04CA /* data.plist in Resources */,
+				870F2C231DD404C700562B29 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,24 +197,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87BE93651DD0FE7100D32C69 /* ViewController.m in Sources */,
-				87BE936B1DD0FE7100D32C69 /* HSCode.xcdatamodeld in Sources */,
+				878EA7A11DD2DDB1007FE075 /* ChonNgonNgu.m in Sources */,
+				876C77D21DD332EF007FF2D5 /* HangHoa.m in Sources */,
 				87BE93621DD0FE7100D32C69 /* AppDelegate.m in Sources */,
 				87BE935F1DD0FE7100D32C69 /* main.m in Sources */,
+				879CFA721DD44AE400AF04CA /* ChiTietHangHoa.m in Sources */,
+				879CFA6F1DD4456100AF04CA /* TimKiem.m in Sources */,
+				876C77CF1DD31E39007FF2D5 /* Chuong.m in Sources */,
+				878EA7A41DD30778007FE075 /* ChuDe.m in Sources */,
+				871AF5411DD1763D0000419C /* DbManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		87BE93661DD0FE7100D32C69 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				87BE93671DD0FE7100D32C69 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		87BE936E1DD0FE7100D32C69 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -195,8 +237,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -218,7 +262,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -239,8 +283,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -256,7 +302,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -267,7 +313,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = CD3JTQTETY;
 				INFOPLIST_FILE = HSCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = inc.boykatty.HSCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,7 +327,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = CD3JTQTETY;
 				INFOPLIST_FILE = HSCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = inc.boykatty.HSCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,21 +356,9 @@
 				87BE93761DD0FE7100D32C69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		87BE93691DD0FE7100D32C69 /* HSCode.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				87BE936A1DD0FE7100D32C69 /* HSCode.xcdatamodel */,
-			);
-			currentVersion = 87BE936A1DD0FE7100D32C69 /* HSCode.xcdatamodel */;
-			path = HSCode.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 87BE93521DD0FE7000D32C69 /* Project object */;
 }

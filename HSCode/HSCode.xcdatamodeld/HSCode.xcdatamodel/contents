@@ -1,4 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="16B2555" minimumToolsVersion="Automatic">
+    <entity name="Chapter" syncable="YES">
+        <attribute name="chaperid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="chapter_en" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chapter_vn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="des_en" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="des_vn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_en" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_vn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sectionid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Commodity" syncable="YES">
+        <attribute name="chapterid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="commodityid" optional="YES" attributeType="Integer 64" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="des_en" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="des_vn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="level" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="parentid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Section" syncable="YES">
+        <attribute name="des_en" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="des_vn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_en" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_vn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="section_en" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="section_vn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sectionid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Chapter" positionX="-3033" positionY="-109" width="126" height="163"/>
+        <element name="Commodity" positionX="-3114" positionY="-36" width="128" height="150"/>
+        <element name="Section" positionX="-3231" positionY="-117" width="128" height="148"/>
+    </elements>
 </model>
